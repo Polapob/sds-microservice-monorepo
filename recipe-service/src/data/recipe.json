@@ -1,0 +1,373 @@
+[
+  {
+    "id": "1",
+    "description": "Classic Spaghetti Bolognese",
+    "name": "Spaghetti Bolognese",
+    "step": [
+      "Boil water and cook spaghetti as per package instructions.",
+      "In a pan, brown ground beef with onions and garlic.",
+      "Add tomato sauce, Italian herbs, and simmer.",
+      "Serve the sauce over cooked spaghetti and garnish with parmesan cheese."
+    ],
+    "ingredients": "8 oz spaghetti, 1 lb ground beef, 1 onion, 2 cloves garlic, 2 cups tomato sauce, 1 tsp Italian herbs, 1/4 cup parmesan cheese",
+    "imageUrl": "https://example.com/spaghetti-bolognese.jpg"
+  },
+  {
+    "id": "2",
+    "description": "Classic Chicken Alfredo",
+    "name": "Chicken Alfredo",
+    "step": [
+      "Cook fettuccine pasta according to package directions.",
+      "Sauté chicken breast in a pan until cooked through.",
+      "In a separate pan, melt butter and add cream and Parmesan cheese.",
+      "Combine cooked pasta, chicken, and sauce. Serve hot."
+    ],
+    "ingredients": "8 oz fettuccine pasta, 2 boneless chicken breasts, 1/2 cup butter, 1 cup heavy cream, 1 cup grated Parmesan cheese",
+    "imageUrl": "https://example.com/chicken-alfredo.jpg"
+  },
+  {
+    "id": "3",
+    "description": "Homemade Margherita Pizza",
+    "name": "Margherita Pizza",
+    "step": [
+      "Preheat the oven to 475°F (245°C).",
+      "Roll out pizza dough into a thin crust.",
+      "Spread tomato sauce, fresh mozzarella, and fresh basil leaves on the dough.",
+      "Bake for 12-15 minutes until the crust is golden and cheese is bubbly."
+    ],
+    "ingredients": "Pizza dough, 1/2 cup tomato sauce, 8 oz fresh mozzarella, fresh basil leaves",
+    "imageUrl": "https://example.com/margherita-pizza.jpg"
+  },
+  {
+    "id": "4",
+    "description": "Vegetable Stir-Fry with Tofu",
+    "name": "Vegetable Stir-Fry",
+    "step": [
+      "In a wok, heat oil and sauté tofu until browned.",
+      "Add a mix of sliced vegetables and stir-fry until tender-crisp.",
+      "Combine soy sauce and ginger in a small bowl, then pour over the stir-fry.",
+      "Serve over rice."
+    ],
+    "ingredients": "12 oz tofu, mixed vegetables (bell peppers, broccoli, carrots), 2 tbsp soy sauce, 1 tsp grated ginger, cooked rice",
+    "imageUrl": "https://example.com/vegetable-stir-fry.jpg"
+  },
+  {
+    "id": "5",
+    "description": "Creamy Tomato Basil Soup",
+    "name": "Tomato Basil Soup",
+    "step": [
+      "Sauté onions and garlic in a pot until soft.",
+      "Add canned tomatoes, broth, and fresh basil. Simmer.",
+      "Blend the mixture until smooth, then return it to the pot.",
+      "Stir in heavy cream, salt, and pepper. Heat and serve."
+    ],
+    "ingredients": "1 onion, 2 cloves garlic, 28 oz canned tomatoes, 2 cups chicken or vegetable broth, fresh basil leaves, 1/2 cup heavy cream",
+    "imageUrl": "https://example.com/tomato-basil-soup.jpg"
+  },
+  {
+    "id": "6",
+    "description": "Classic Caesar Salad",
+    "name": "Caesar Salad",
+    "step": [
+      "In a bowl, mix Romaine lettuce, croutons, and Parmesan cheese.",
+      "In a separate bowl, whisk together olive oil, lemon juice, and garlic.",
+      "Pour the dressing over the salad and toss to combine."
+    ],
+    "ingredients": "Romaine lettuce, croutons, Parmesan cheese, olive oil, lemon juice, garlic",
+    "imageUrl": "https://example.com/caesar-salad.jpg"
+  },
+  {
+    "id": "7",
+    "description": "Baked Salmon with Lemon and Dill",
+    "name": "Lemon Dill Salmon",
+    "step": [
+      "Preheat oven to 375°F (190°C).",
+      "Season salmon fillets with salt, pepper, and dill. Place on a baking sheet.",
+      "Drizzle with lemon juice and bake for 15-20 minutes until flaky.",
+      "Serve with lemon wedges."
+    ],
+    "ingredients": "4 salmon fillets, salt, pepper, fresh dill, lemon juice, lemon wedges",
+    "imageUrl": "https://example.com/lemon-dill-salmon.jpg"
+  },
+  {
+    "id": "8",
+    "description": "Homemade Guacamole",
+    "name": "Guacamole",
+    "step": [
+      "Mash avocados in a bowl and add diced onion, tomato, and cilantro.",
+      "Stir in lime juice, salt, and minced garlic.",
+      "Serve with tortilla chips or as a topping for tacos."
+    ],
+    "ingredients": "3 avocados, 1/2 onion, 1 tomato, fresh cilantro, lime juice, salt, garlic",
+    "imageUrl": "https://example.com/guacamole.jpg"
+  },
+  {
+    "id": "9",
+    "description": "Homemade Chocolate Chip Cookies",
+    "name": "Chocolate Chip Cookies",
+    "step": [
+      "Preheat oven to 350°F (175°C).",
+      "In a bowl, cream together butter, sugar, and brown sugar.",
+      "Beat in eggs and vanilla. Mix in flour, baking soda, and chocolate chips.",
+      "Drop spoonfuls of dough onto a baking sheet and bake for 10-12 minutes."
+    ],
+    "ingredients": "1 cup butter, 1 cup white sugar, 1 cup brown sugar, 2 eggs, 1 tsp vanilla extract, 3 cups all-purpose flour, 1 tsp baking soda, chocolate chips",
+    "imageUrl": "https://example.com/chocolate-chip-cookies.jpg"
+  },
+  {
+    "id": "10",
+    "description": "Fresh Fruit Salad",
+    "name": "Fruit Salad",
+    "step": [
+      "Wash and chop a variety of fresh fruits (e.g., strawberries, pineapple, grapes, melon).",
+      "Combine in a large bowl and drizzle with honey and lime juice.",
+      "Toss gently to mix and serve chilled."
+    ],
+    "ingredients": "Assorted fresh fruits, honey, lime juice",
+    "imageUrl": "https://example.com/fruit-salad.jpg"
+  },
+  {
+    "id": "11",
+    "description": "Homemade Beef Tacos",
+    "name": "Beef Tacos",
+    "step": [
+      "Brown ground beef in a pan, then add taco seasoning and water. Simmer until thickened.",
+      "Warm taco shells in the oven.",
+      "Assemble tacos with seasoned beef, lettuce, cheese, and your favorite toppings."
+    ],
+    "ingredients": "1 lb ground beef, taco seasoning, taco shells, lettuce, shredded cheese, toppings (salsa, sour cream, guacamole)",
+    "imageUrl": "https://example.com/beef-tacos.jpg"
+  },
+  {
+    "id": "12",
+    "description": "Creamy Mushroom Risotto",
+    "name": "Mushroom Risotto",
+    "step": [
+      "Sauté onions and garlic in a pan. Add Arborio rice and cook for a few minutes.",
+      "Gradually add chicken or vegetable broth and stir until absorbed.",
+      "Stir in sautéed mushrooms, Parmesan cheese, and butter.",
+      "Serve hot, garnished with fresh parsley."
+    ],
+    "ingredients": "1 cup Arborio rice, 4 cups chicken or vegetable broth, 1 cup sliced mushrooms, 1/2 cup grated Parmesan cheese, butter, fresh parsley",
+    "imageUrl": "https://example.com/mushroom-risotto.jpg"
+  },
+  {
+    "id": "13",
+    "description": "Lemon Garlic Roast Chicken",
+    "name": "Roast Chicken",
+    "step": [
+      "Preheat oven to 375°F (190°C).",
+      "Rub a whole chicken with lemon juice, garlic, and herbs. Season with salt and pepper.",
+      "Roast in the oven for 1.5 to 2 hours until cooked through and golden.",
+      "Let it rest before carving and serving."
+    ],
+    "ingredients": "1 whole chicken, lemon juice, garlic, fresh herbs, salt, pepper",
+    "imageUrl": "https://example.com/roast-chicken.jpg"
+  },
+  {
+    "id": "14",
+    "description": "Homemade Vegetable Lasagna",
+    "name": "Vegetable Lasagna",
+    "step": [
+      "Cook lasagna noodles according to package instructions.",
+      "Layer noodles with a mix of sautéed vegetables, ricotta cheese, and marinara sauce.",
+      "Top with mozzarella cheese and bake in the oven until bubbly and golden.",
+      "Let it cool slightly before serving."
+    ],
+    "ingredients": "Lasagna noodles, mixed sautéed vegetables (zucchini, bell peppers, spinach), ricotta cheese, marinara sauce, mozzarella cheese",
+    "imageUrl": "https://example.com/vegetable-lasagna.jpg"
+  },
+  {
+    "id": "15",
+    "description": "Classic Beef Stew",
+    "name": "Beef Stew",
+    "step": [
+      "In a large pot, brown cubed beef in oil. Remove and set aside.",
+      "Sauté onions, carrots, and celery in the same pot. Add garlic, flour, and tomato paste.",
+      "Return the beef to the pot, add broth, potatoes, and herbs. Simmer until meat is tender.",
+      "Serve hot with crusty bread."
+    ],
+    "ingredients": "1 lb beef stew meat, onions, carrots, celery, garlic, flour, tomato paste, beef broth, potatoes, fresh herbs",
+    "imageUrl": "https://example.com/beef-stew.jpg"
+  },
+  {
+    "id": "16",
+    "description": "Homemade Sushi Rolls",
+    "name": "Sushi Rolls",
+    "step": [
+      "Prepare sushi rice and season with rice vinegar and sugar.",
+      "Lay a sheet of nori on a bamboo sushi mat, spread rice, and add your choice of fillings (e.g., cucumber, avocado, raw fish).",
+      "Roll the sushi tightly, slice, and serve with soy sauce and wasabi."
+    ],
+    "ingredients": "Sushi rice, nori seaweed sheets, rice vinegar, sugar, fillings (cucumber, avocado, fish), soy sauce, wasabi",
+    "imageUrl": "https://example.com/sushi-rolls.jpg"
+  },
+  {
+    "id": "17",
+    "description": "Homemade Chicken Noodle Soup",
+    "name": "Chicken Noodle Soup",
+    "step": [
+      "In a large pot, simmer chicken with water, onions, carrots, and celery until chicken is cooked.",
+      "Remove the chicken, shred, and return to the pot. Add cooked noodles and season with salt and pepper.",
+      "Serve hot, garnished with fresh parsley."
+    ],
+    "ingredients": "Chicken, onions, carrots, celery, noodles, salt, pepper, fresh parsley",
+    "imageUrl": "https://example.com/chicken-noodle-soup.jpg"
+  },
+  {
+    "id": "18",
+    "description": "Homemade Spinach and Feta Stuffed Chicken",
+    "name": "Spinach and Feta Chicken",
+    "step": [
+      "Butterfly chicken breasts and stuff with a mixture of spinach, feta cheese, and garlic.",
+      "Secure with toothpicks and bake in the oven until chicken is cooked through.",
+      "Serve hot, garnished with fresh herbs."
+    ],
+    "ingredients": "Chicken breasts, spinach, feta cheese, garlic, fresh herbs, toothpicks",
+    "imageUrl": "https://example.com/spinach-feta-chicken.jpg"
+  },
+  {
+    "id": "19",
+    "description": "Mango Salsa",
+    "name": "Mango Salsa",
+    "step": [
+      "Dice fresh mango, red onion, and bell pepper. Chop cilantro.",
+      "Combine in a bowl and add lime juice, salt, and a pinch of chili powder.",
+      "Refrigerate for at least 30 minutes before serving with tortilla chips or grilled meat."
+    ],
+    "ingredients": "Fresh mango, red onion, bell pepper, cilantro, lime juice, salt, chili powder",
+    "imageUrl": "https://example.com/mango-salsa.jpg"
+  },
+  {
+    "id": "20",
+    "description": "Homemade Beef and Broccoli Stir-Fry",
+    "name": "Beef and Broccoli Stir-Fry",
+    "step": [
+      "Sauté sliced beef in a wok with garlic and ginger until browned. Remove and set aside.",
+      "Stir-fry broccoli florets in the same wok, then add a sauce made with soy sauce and cornstarch.",
+      "Return the beef to the wok, cook briefly, and serve over rice."
+    ],
+    "ingredients": "Sliced beef, broccoli florets, garlic, ginger, soy sauce, cornstarch, cooked rice",
+    "imageUrl": "https://example.com/beef-broccoli-stir-fry.jpg"
+  },
+  {
+    "id": "21",
+    "description": "Classic Chicken Parmesan",
+    "name": "Chicken Parmesan",
+    "step": [
+      "Dip chicken breasts in egg and bread crumbs, then fry until golden brown.",
+      "Top with marinara sauce and mozzarella cheese, then bake until cheese is bubbly.",
+      "Serve over spaghetti."
+    ],
+    "ingredients": "Chicken breasts, eggs, bread crumbs, marinara sauce, mozzarella cheese, spaghetti",
+    "imageUrl": "https://example.com/chicken-parmesan.jpg"
+  },
+  {
+    "id": "22",
+    "description": "Homemade Minestrone Soup",
+    "name": "Minestrone Soup",
+    "step": [
+      "Sauté onions, carrots, and celery in a pot until softened.",
+      "Add diced tomatoes, beans, pasta, and vegetable broth. Simmer until pasta is cooked.",
+      "Serve hot, garnished with fresh basil and grated Parmesan cheese."
+    ],
+    "ingredients": "Onions, carrots, celery, diced tomatoes, cannellini beans, pasta, vegetable broth, fresh basil, Parmesan cheese",
+    "imageUrl": "https://example.com/minestrone-soup.jpg"
+  },
+  {
+    "id": "23",
+    "description": "Homemade Chicken Fajitas",
+    "name": "Chicken Fajitas",
+    "step": [
+      "Sauté sliced chicken in a pan with bell peppers and onions.",
+      "Season with fajita seasoning and lime juice.",
+      "Serve in tortillas with salsa, sour cream, and guacamole."
+    ],
+    "ingredients": "Sliced chicken, bell peppers, onions, fajita seasoning, lime juice, tortillas, salsa, sour cream, guacamole",
+    "imageUrl": "https://example.com/chicken-fajitas.jpg"
+  },
+  {
+    "id": "24",
+    "description": "Homemade Shrimp Scampi",
+    "name": "Shrimp Scampi",
+    "step": [
+      "Cook linguine pasta according to package instructions.",
+      "Sauté shrimp in a pan with butter, garlic, and white wine until pink.",
+      "Toss cooked pasta with shrimp and sauce. Garnish with fresh parsley."
+    ],
+    "ingredients": "Linguine pasta, shrimp, butter, garlic, white wine, fresh parsley",
+    "imageUrl": "https://example.com/shrimp-scampi.jpg"
+  },
+  {
+    "id": "25",
+    "description": "Homemade Tiramisu",
+    "name": "Tiramisu",
+    "step": [
+      "Mix mascarpone cheese, egg yolks, sugar, and vanilla until smooth.",
+      "Dip ladyfingers in coffee and layer them with the cheese mixture.",
+      "Chill for several hours, then dust with cocoa powder before serving."
+    ],
+    "ingredients": "Mascarpone cheese, egg yolks, sugar, vanilla extract, ladyfingers, coffee, cocoa powder",
+    "imageUrl": "https://example.com/tiramisu.jpg"
+  },
+  {
+    "id": "26",
+    "description": "Homemade Beef and Cheese Enchiladas",
+    "name": "Beef and Cheese Enchiladas",
+    "step": [
+      "Brown ground beef and mix with grated cheddar cheese.",
+      "Fill tortillas with the beef and cheese mixture, roll, and place in a baking dish.",
+      "Cover with enchilada sauce and bake until heated through."
+    ],
+    "ingredients": "Ground beef, cheddar cheese, tortillas, enchilada sauce",
+    "imageUrl": "https://example.com/beef-enchiladas.jpg"
+  },
+  {
+    "id": "27",
+    "description": "Homemade Baked Ziti",
+    "name": "Baked Ziti",
+    "step": [
+      "Boil ziti pasta until al dente. Drain and set aside.",
+      "Mix cooked pasta with ricotta cheese, marinara sauce, and mozzarella cheese.",
+      "Bake until bubbly and golden. Serve hot."
+    ],
+    "ingredients": "Ziti pasta, ricotta cheese, marinara sauce, mozzarella cheese",
+    "imageUrl": "https://example.com/baked-ziti.jpg"
+  },
+  {
+    "id": "28",
+    "description": "Classic Caesar Salad",
+    "name": "Caesar Salad",
+    "step": [
+      "In a bowl, mix Romaine lettuce, croutons, and Parmesan cheese.",
+      "In a separate bowl, whisk together olive oil, lemon juice, and garlic.",
+      "Pour the dressing over the salad and toss to combine."
+    ],
+    "ingredients": "Romaine lettuce, croutons, Parmesan cheese, olive oil, lemon juice, garlic",
+    "imageUrl": "https://example.com/caesar-salad.jpg"
+  },
+  {
+    "id": "29",
+    "description": "Homemade Chicken Pot Pie",
+    "name": "Chicken Pot Pie",
+    "step": [
+      "Cook chicken, carrots, peas, and onions in a creamy sauce.",
+      "Pour the mixture into a pie crust, cover with another crust, and bake until golden brown.",
+      "Let it cool slightly before serving."
+    ],
+    "ingredients": "Chicken, carrots, peas, onions, pie crust, creamy sauce",
+    "imageUrl": "https://example.com/chicken-pot-pie.jpg"
+  },
+  {
+    "id": "30",
+    "description": "Homemade Banana Bread",
+    "name": "Banana Bread",
+    "step": [
+      "Mash ripe bananas in a bowl and add sugar, melted butter, and eggs.",
+      "Mix in flour, baking soda, and a pinch of salt. Fold in chopped nuts if desired.",
+      "Bake in a loaf pan until a toothpick comes out clean."
+    ],
+    "ingredients": "Ripe bananas, sugar, butter, eggs, flour, baking soda, salt, nuts (optional)",
+    "imageUrl": "https://example.com/banana-bread.jpg"
+  }
+]
