@@ -1,0 +1,422 @@
+[
+  {
+    "id": "1",
+    "recipeId": "7",
+    "description": "Delicious dish, loved it!",
+    "reviewerName": "Alice",
+    "rating": 4.5
+  },
+  {
+    "id": "2",
+    "recipeId": "14",
+    "description": "Great recipe, easy to make!",
+    "reviewerName": "Bob",
+    "rating": 4.0
+  },
+  {
+    "id": "3",
+    "recipeId": "22",
+    "description": "This recipe was fantastic!",
+    "reviewerName": "Charlie",
+    "rating": 5.0
+  },
+  {
+    "id": "4",
+    "recipeId": "9",
+    "description": "Tasted good, but could use some improvements.",
+    "reviewerName": "David",
+    "rating": 3.5
+  },
+  {
+    "id": "5",
+    "recipeId": "28",
+    "description": "Yummy, will definitely make it again!",
+    "reviewerName": "Eve",
+    "rating": 4.8
+  },
+  {
+    "id": "6",
+    "recipeId": "5",
+    "description": "Disappointing, didn't like it at all.",
+    "reviewerName": "Frank",
+    "rating": 2.0
+  },
+  {
+    "id": "7",
+    "recipeId": "12",
+    "description": "Average recipe, nothing special.",
+    "reviewerName": "Grace",
+    "rating": 3.0
+  },
+  {
+    "id": "8",
+    "recipeId": "17",
+    "description": "Absolutely delicious, a must-try!",
+    "reviewerName": "Helen",
+    "rating": 5.0
+  },
+  {
+    "id": "9",
+    "recipeId": "3",
+    "description": "Decent recipe, worth trying.",
+    "reviewerName": "Ian",
+    "rating": 3.8
+  },
+  {
+    "id": "10",
+    "recipeId": "25",
+    "description": "Superb! Loved every bite.",
+    "reviewerName": "Jack",
+    "rating": 4.7
+  },
+  {
+    "id": "11",
+    "recipeId": "6",
+    "description": "Delightful recipe, highly recommended!",
+    "reviewerName": "Karen",
+    "rating": 4.9
+  },
+  {
+    "id": "12",
+    "recipeId": "20",
+    "description": "Tasty and easy to make, loved it!",
+    "reviewerName": "Liam",
+    "rating": 4.6
+  },
+  {
+    "id": "13",
+    "recipeId": "13",
+    "description": "Incredible flavors, a new favorite!",
+    "reviewerName": "Mia",
+    "rating": 4.8
+  },
+  {
+    "id": "14",
+    "recipeId": "8",
+    "description": "Good, but could use more seasoning.",
+    "reviewerName": "Noah",
+    "rating": 3.7
+  },
+  {
+    "id": "15",
+    "recipeId": "29",
+    "description": "Absolutely delicious, a must-try!",
+    "reviewerName": "Olivia",
+    "rating": 5.0
+  },
+  {
+    "id": "16",
+    "recipeId": "4",
+    "description": "Not my favorite, but it was okay.",
+    "reviewerName": "Ethan",
+    "rating": 3.0
+  },
+  {
+    "id": "17",
+    "recipeId": "23",
+    "description": "Superb! Loved every bite.",
+    "reviewerName": "Ava",
+    "rating": 4.7
+  },
+  {
+    "id": "18",
+    "recipeId": "16",
+    "description": "Quick and tasty, perfect for a weeknight dinner.",
+    "reviewerName": "Lucas",
+    "rating": 4.4
+  },
+  {
+    "id": "19",
+    "recipeId": "10",
+    "description": "Loved it, will definitely make it again!",
+    "reviewerName": "Sophia",
+    "rating": 4.8
+  },
+  {
+    "id": "20",
+    "recipeId": "19",
+    "description": "Decent recipe, worth trying.",
+    "reviewerName": "Aiden",
+    "rating": 3.9
+  },
+  {
+    "id": "21",
+    "recipeId": "2",
+    "description": "Delicious dish, loved it!",
+    "reviewerName": "Emma",
+    "rating": 4.5
+  },
+  {
+    "id": "22",
+    "recipeId": "18",
+    "description": "Great recipe, easy to make!",
+    "reviewerName": "Mason",
+    "rating": 4.1
+  },
+  {
+    "id": "23",
+    "recipeId": "21",
+    "description": "This recipe was fantastic!",
+    "reviewerName": "Oliver",
+    "rating": 4.9
+  },
+  {
+    "id": "24",
+    "recipeId": "27",
+    "description": "Tasted good, but could use some improvements.",
+    "reviewerName": "Isabella",
+    "rating": 3.5
+  },
+  {
+    "id": "25",
+    "recipeId": "1",
+    "description": "Yummy, will definitely make it again!",
+    "reviewerName": "Evelyn",
+    "rating": 4.8
+  },
+  {
+    "id": "26",
+    "recipeId": "30",
+    "description": "Disappointing, didn't like it at all.",
+    "reviewerName": "Logan",
+    "rating": 2.0
+  },
+  {
+    "id": "27",
+    "recipeId": "11",
+    "description": "Average recipe, nothing special.",
+    "reviewerName": "Layla",
+    "rating": 3.2
+  },
+  {
+    "id": "28",
+    "recipeId": "15",
+    "description": "Absolutely delicious, a must-try!",
+    "reviewerName": "James",
+    "rating": 5.0
+  },
+  {
+    "id": "29",
+    "recipeId": "24",
+    "description": "Decent recipe, worth trying.",
+    "reviewerName": "Aria",
+    "rating": 3.9
+  },
+  {
+    "id": "30",
+    "recipeId": "7",
+    "description": "Superb! Loved every bite.",
+    "reviewerName": "William",
+    "rating": 4.6
+  },
+  {
+    "id": "31",
+    "recipeId": "9",
+    "description": "Delightful recipe, highly recommended!",
+    "reviewerName": "Sophie",
+    "rating": 4.9
+  },
+  {
+    "id": "32",
+    "recipeId": "16",
+    "description": "Tasty and easy to make, loved it!",
+    "reviewerName": "Elijah",
+    "rating": 4.6
+  },
+  {
+    "id": "33",
+    "recipeId": "12",
+    "description": "Incredible flavors, a new favorite!",
+    "reviewerName": "Amelia",
+    "rating": 4.8
+  },
+  {
+    "id": "34",
+    "recipeId": "24",
+    "description": "Good, but could use more seasoning.",
+    "reviewerName": "Henry",
+    "rating": 3.7
+  },
+  {
+    "id": "35",
+    "recipeId": "27",
+    "description": "Absolutely delicious, a must-try!",
+    "reviewerName": "Oliver",
+    "rating": 5.0
+  },
+  {
+    "id": "36",
+    "recipeId": "19",
+    "description": "Not my favorite, but it was okay.",
+    "reviewerName": "Lily",
+    "rating": 3.0
+  },
+  {
+    "id": "37",
+    "recipeId": "18",
+    "description": "Superb! Loved every bite.",
+    "reviewerName": "Daniel",
+    "rating": 4.7
+  },
+  {
+    "id": "38",
+    "recipeId": "5",
+    "description": "Quick and tasty, perfect for a weeknight dinner.",
+    "reviewerName": "Sophia",
+    "rating": 4.4
+  },
+  {
+    "id": "39",
+    "recipeId": "11",
+    "description": "Loved it, will definitely make it again!",
+    "reviewerName": "Jackson",
+    "rating": 4.8
+  },
+  {
+    "id": "40",
+    "recipeId": "26",
+    "description": "Decent recipe, worth trying.",
+    "reviewerName": "Grace",
+    "rating": 3.9
+  },
+  {
+    "id": "41",
+    "recipeId": "14",
+    "description": "Delicious dish, loved it!",
+    "reviewerName": "Lucas",
+    "rating": 4.5
+  },
+  {
+    "id": "42",
+    "recipeId": "28",
+    "description": "Great recipe, easy to make!",
+    "reviewerName": "Chloe",
+    "rating": 4.1
+  },
+  {
+    "id": "43",
+    "recipeId": "20",
+    "description": "This recipe was fantastic!",
+    "reviewerName": "Ethan",
+    "rating": 4.9
+  },
+  {
+    "id": "44",
+    "recipeId": "21",
+    "description": "Tasted good, but could use some improvements.",
+    "reviewerName": "Ava",
+    "rating": 3.5
+  },
+  {
+    "id": "45",
+    "recipeId": "8",
+    "description": "Yummy, will definitely make it again!",
+    "reviewerName": "Liam",
+    "rating": 4.8
+  },
+  {
+    "id": "46",
+    "recipeId": "2",
+    "description": "Disappointing, didn't like it at all.",
+    "reviewerName": "Sophie",
+    "rating": 2.0
+  },
+  {
+    "id": "47",
+    "recipeId": "10",
+    "description": "Average recipe, nothing special.",
+    "reviewerName": "Noah",
+    "rating": 3.2
+  },
+  {
+    "id": "48",
+    "recipeId": "23",
+    "description": "Absolutely delicious, a must-try!",
+    "reviewerName": "Aria",
+    "rating": 5.0
+  },
+  {
+    "id": "49",
+    "recipeId": "3",
+    "description": "Decent recipe, worth trying.",
+    "reviewerName": "Layla",
+    "rating": 3.9
+  },
+  {
+    "id": "50",
+    "recipeId": "30",
+    "description": "Superb! Loved every bite.",
+    "reviewerName": "Logan",
+    "rating": 4.6
+  },
+  {
+    "id": "51",
+    "recipeId": "15",
+    "description": "Delightful recipe, highly recommended!",
+    "reviewerName": "Mia",
+    "rating": 4.9
+  },
+  {
+    "id": "52",
+    "recipeId": "22",
+    "description": "Tasty and easy to make, loved it!",
+    "reviewerName": "Jack",
+    "rating": 4.6
+  },
+  {
+    "id": "53",
+    "recipeId": "4",
+    "description": "Incredible flavors, a new favorite!",
+    "reviewerName": "Ava",
+    "rating": 4.8
+  },
+  {
+    "id": "54",
+    "recipeId": "25",
+    "description": "Good, but could use more seasoning.",
+    "reviewerName": "Henry",
+    "rating": 3.7
+  },
+  {
+    "id": "55",
+    "recipeId": "17",
+    "description": "Absolutely delicious, a must-try!",
+    "reviewerName": "Sophia",
+    "rating": 5.0
+  },
+  {
+    "id": "56",
+    "recipeId": "7",
+    "description": "Not my favorite, but it was okay.",
+    "reviewerName": "Mason",
+    "rating": 3.0
+  },
+  {
+    "id": "57",
+    "recipeId": "1",
+    "description": "Superb! Loved every bite.",
+    "reviewerName": "Lily",
+    "rating": 4.7
+  },
+  {
+    "id": "58",
+    "recipeId": "29",
+    "description": "Quick and tasty, perfect for a weeknight dinner.",
+    "reviewerName": "Lucas",
+    "rating": 4.4
+  },
+  {
+    "id": "59",
+    "recipeId": "6",
+    "description": "Loved it, will definitely make it again!",
+    "reviewerName": "Evelyn",
+    "rating": 4.8
+  },
+  {
+    "id": "60",
+    "recipeId": "13",
+    "description": "Decent recipe, worth trying.",
+    "reviewerName": "Aiden",
+    "rating": 3.9
+  }
+]

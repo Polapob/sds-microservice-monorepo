@@ -1,25 +1,25 @@
 import ExpressConfig from "./config";
-import ChefRepository from "./repository/chef";
+import ReviewRepository from "./repository/review";
 
 const app = ExpressConfig();
 const PORT = process.env.PORT;
-const chefRepository = new ChefRepository();
+const reviewRepository = new ReviewRepository();
 
-app.get("/chefs", (_, res) => {
-  const chefs = chefRepository.getAllChefs();
-  return res.send(chefs);
-});
-
-app.get("/chefs/:id", (req, res) => {
-  const id = req.params.id;
-  const chef = chefRepository.getChefById(id);
-
-  if (!chef) {
-    res.status(404);
-    return res.send({ error: "Not found chef" });
+app.get("/reviews", (req, res) => {
+  const recipeId = req.query.recipeId as string;
+  if (!recipeId) {
+    const reviews = reviewRepository.getReviews();
+    return res.send(reviews);
   }
 
-  return res.send({ chef });
+  const reviews = reviewRepository.getReviewsByRecipeId(recipeId);
+
+  if (reviews.length == 0) {
+    res.status(404);
+    return res.send({ error: "Not found reviews" });
+  }
+
+  return res.send({ reviews });
 });
 
 app.listen(PORT, () => console.log("Server Running on Port: " + PORT));
