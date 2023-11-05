@@ -22,7 +22,11 @@ app.get("/recipes/:id", (req, res) => {
 });
 
 app.get("/recipes", (req, res) => {
-  const query = req.query as { pageSize: string; currentPage: string };
+  const query = req.query as {
+    pageSize: string;
+    currentPage: string;
+    text?: string;
+  };
 
   if (isNaN(parseInt(query.pageSize)) || isNaN(parseInt(query.currentPage))) {
     res.status(400);
@@ -33,7 +37,7 @@ app.get("/recipes", (req, res) => {
 
   const currentPage = parseInt(query.currentPage) - 1;
   const pageSize = parseInt(query.pageSize);
-  const totalRecipes = recipeRepository.getNumberRecipes();
+  const totalRecipes = recipeRepository.getNumberRecipes(query.text);
   const totalPage = Math.ceil(totalRecipes / pageSize);
 
   if (currentPage < 0) {
@@ -52,7 +56,11 @@ app.get("/recipes", (req, res) => {
 
   const startIdx = currentPage * pageSize;
   const endIdx = startIdx + pageSize;
-  const recipes = recipeRepository.getRecipesPagination(startIdx, endIdx);
+  const recipes = recipeRepository.getRecipesPagination(
+    startIdx,
+    endIdx,
+    query.text
+  );
   const response = {
     recipes,
     paginationMetadata: { totalPage, currentPage: parseInt(query.currentPage) },
