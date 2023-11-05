@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  chef:
+    build:
+      context: ./chef-service
+    ports:
+      - 50001:50001
+  
+  recipe:
+    build: 
+      context: ./recipe-service
+    ports:
+      - 50002:50002
+
+  review:
+    build: 
+      context: ./review-service
+    ports:
+      - 50003:50003
