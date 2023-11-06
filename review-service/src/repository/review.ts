@@ -11,9 +11,7 @@ class ReviewRepository implements IReviewRepository {
     return reviews;
   }
   getReviewsByRecipeId(recipeId: string) {
-    console.log("pass-this");
     const filteredReviews = this.getReviews().filter((review) => {
-      console.log("a= ", recipeId);
       return review.recipeId === recipeId;
     });
     return filteredReviews;
