@@ -37,7 +37,9 @@ app.get("/recipes", (req, res) => {
 
   const currentPage = parseInt(query.currentPage) - 1;
   const pageSize = parseInt(query.pageSize);
-  const totalRecipes = recipeRepository.getNumberRecipes(query.text);
+  const totalRecipes = recipeRepository.getNumberRecipes(
+    query.text?.toLowerCase()
+  );
   const totalPage = Math.ceil(totalRecipes / pageSize);
 
   if (currentPage < 0) {
@@ -59,11 +61,15 @@ app.get("/recipes", (req, res) => {
   const recipes = recipeRepository.getRecipesPagination(
     startIdx,
     endIdx,
-    query.text
+    query.text?.toLowerCase()
   );
   const response = {
     recipes,
-    paginationMetadata: { totalPage, currentPage: parseInt(query.currentPage) },
+    paginationMetadata: {
+      totalPage,
+      currentPage: parseInt(query.currentPage),
+      totalRecipes,
+    },
   };
   return res.send(response);
 });

@@ -46,9 +46,9 @@ class RecipeRepository implements IRecipeRepository {
 
   private searchRecipes(recipes: IRecipe[], query: string) {
     return recipes.filter((recipe) => {
-      const isInDescription = recipe.description.includes(query);
-      const isInName = recipe.name.includes(query);
-      const isInIngredient = recipe.ingredients.includes(query);
+      const isInDescription = recipe.description.toLowerCase().includes(query);
+      const isInName = recipe.name.toLowerCase().includes(query);
+      const isInIngredient = recipe.ingredients.toLowerCase().includes(query);
       return isInName || isInDescription || isInIngredient;
     });
   }
