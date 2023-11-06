@@ -9,7 +9,7 @@ app.get("/reviews", (req, res) => {
   const recipeId = req.query.recipeId as string;
   if (!recipeId) {
     const reviews = reviewRepository.getReviews();
-    return res.send(reviews);
+    return res.send({ reviews });
   }
 
   const reviews = reviewRepository.getReviewsByRecipeId(recipeId);
