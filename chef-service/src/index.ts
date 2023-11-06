@@ -7,7 +7,7 @@ const chefRepository = new ChefRepository();
 
 app.get("/chefs", (_, res) => {
   const chefs = chefRepository.getAllChefs();
-  return res.send(chefs);
+  return res.send({ chefs });
 });
 
 app.get("/chefs/:id", (req, res) => {
