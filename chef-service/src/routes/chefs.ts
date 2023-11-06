@@ -16,9 +16,9 @@ export interface IChef {
  *   description: Lists of all supported endpoints
  * /chefs:
  *   get:
- *     summary: Retrieve a list of JSONPlaceholder users.
+ *     summary: Get all chefs
  *     tags: [Chefs]
- *     description: Retrieve a list of users from JSONPlaceholder. Can be used to populate a list of fake users when prototyping or testing an API.
+ *     description: Get all chefs in chef service.
  *     responses:
  *       200:
  *         description: A list of users.
@@ -36,6 +36,7 @@ export interface IChef {
  * /chefs/{id}:
  *   get:
  *     summary: Get chef by id
+ *     description: Get chef by chef id
  *     tags: [Chefs]
  *     parameters:
  *       - in: path
