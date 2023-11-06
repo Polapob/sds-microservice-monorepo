@@ -2,19 +2,19 @@ version: '3'
 
 services:
   chef:
-    build:
-      context: ./chef-service
+    image: polapob/chef-service:1.0
+    container_name: chef-service
     ports:
       - 50001:50001
   
   recipe:
-    build: 
-      context: ./recipe-service
+    image: polapob/recipe-service:1.0
+    container_name: recipe-service
     ports:
       - 50002:50002
 
   review:
-    build: 
-      context: ./review-service
+    image: polapob/review-service:1.0
+    container_name: review-service
     ports:
       - 50003:50003
