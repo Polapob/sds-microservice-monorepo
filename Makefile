@@ -1,7 +1,7 @@
 # Using for deploy purpose
-run_all_service:
+run_all_services:
 	docker-compose up --build
-stop_all_service:
+stop_all_services:
 	docker-compose down
 
 # Using for debugging purpose
