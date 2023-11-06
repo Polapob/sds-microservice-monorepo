@@ -34,7 +34,7 @@ class RecipeRepository implements IRecipeRepository {
     if (!query) {
       return recipes.slice(start, end);
     }
-    return this.searchRecipes(recipes, query);
+    return this.searchRecipes(recipes, query).slice(start, end);
   }
 
   private processRecipe(): IRecipe[] {
