@@ -10,18 +10,11 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-l
 
 FROM base AS build
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
-
 RUN pnpm run build
 
-FROM gcr.io/distroless/nodejs20-debian11
-
+FROM base
+ENV PORT=50003
 COPY --from=prod-deps /app/node_modules /app/node_modules
 COPY --from=build /app/dist /app/dist
-COPY --from=build /app/package.json /app/package.json
-
-WORKDIR /app
-
-ENV PORT=50003
 EXPOSE 50003
-
-CMD [ "dist/index.js"]
+CMD [ "node", "dist/index.js" ]
